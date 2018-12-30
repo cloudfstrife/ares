@@ -1,11 +1,13 @@
 package main
 
 import (
-	"ares/model"
-	"ares/utils"
 	"fmt"
 	"sync"
 	"time"
+
+	"github.com/cloudfstrife/ares/utils"
+
+	"github.com/cloudfstrife/ares/model"
 )
 
 func main() {

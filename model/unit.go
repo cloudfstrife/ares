@@ -1,12 +1,13 @@
 package model
 
 import (
-	"ares/utils"
 	"bytes"
 	"crypto/rand"
 	"fmt"
 	"math/big"
 	"sync"
+
+	"github.com/cloudfstrife/ares/utils"
 )
 
 //UnitType 单位类型
