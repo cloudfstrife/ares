@@ -15,7 +15,22 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
 
 # Go workspace file
 go.work
+
+# IDE
+.vscode
+.idea
+
+# go.sum
+go.sum
+
+# sonar
+sonar/
+
+# binary
+/target/*
+!/target/debug/README.md
+!/target/release/README.md
